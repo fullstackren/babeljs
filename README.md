@@ -1,6 +1,6 @@
 # 全栈孤勇者日刊
 
-记录每天值得分享的内容，每天 9 点发布。
+记录每天值得分享的内容，每天 8 点发布。
 
 欢迎投稿，推荐或自荐文章/工具/资源，请[提交 issue](https://github.com/fullstackren/daily/issues) 。
 
