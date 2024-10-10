@@ -27,7 +27,7 @@
 </head>
 <body>
     <ul class="theme-list">
-        <li class="theme-item"><button style="background-color: hsl(220, 83%, 53%);"  onclick="themeChange('blue', '220, 83%, 53%')">蓝色主题</button></li>
+        <li class="theme-item"><button style="background-color: hsl(220, 83%, 53%);"  onclick="themeChange('blue', '262.1 83.3% 53.1%')">蓝色主题</button></li>
         <li class="theme-item"><button style="background-color: hsl(262.1 83.3% 53.1%);" onclick="themeChange('violet', '262.1 83.3% 57.8%')">紫色主题</button></li>
         <li class="theme-item"><button style="background-color: hsl(24.6 95% 53.1%);" onclick="themeChange('orange', '24.6 95% 53.1%')">橙色主题</button></li>
         <li class="theme-item"><button style="background-color: hsl(141, 76%, 36%);" onclick="themeChange('green', '141, 76%, 36%')">绿色主题</button></li>
@@ -38,15 +38,15 @@
         
         function themeChange(colorName, colorHslString) {
             // 修改前
-            // console.log(
-            //     `theme change: ${colorName} ${colorHslString}`
-            // )
+            console.log(
+                `theme change: ${colorName} ${colorHslString}`
+            )
             
             // 修改后
-            console.log(
-                `%c theme change: ${colorName} ${colorHslString}`,
-                `color: white; background-color: hsl(${colorHslString})`
-            );
+            // console.log(
+            //     `%c theme change: ${colorName} ${colorHslString}`,
+            //     `color: white; background-color: hsl(${colorHslString})`
+            // );
         }   
     </script>
 </body>
