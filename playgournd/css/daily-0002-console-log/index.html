@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daily-0002-console-log</title>
+    <style>
+        * { margin: 0; padding: 0; }
+        ul, li {
+            list-style: none;
+        }
+        .theme-list {
+            margin: 24px;
+            display: flex;
+        }
+        .theme-item {
+            margin-right: 8px;
+        }
+        .theme-item button {
+            padding: 0 8px;
+            cursor: pointer;
+            line-height: 36px;
+            border: 1px solid #ccc;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <ul class="theme-list">
+        <li class="theme-item"><button style="background-color: hsl(220, 83%, 53%);"  onclick="themeChange('blue', '220, 83%, 53%')">蓝色主题</button></li>
+        <li class="theme-item"><button style="background-color: hsl(262.1 83.3% 53.1%);" onclick="themeChange('violet', '262.1 83.3% 57.8%')">紫色主题</button></li>
+        <li class="theme-item"><button style="background-color: hsl(24.6 95% 53.1%);" onclick="themeChange('orange', '24.6 95% 53.1%')">橙色主题</button></li>
+        <li class="theme-item"><button style="background-color: hsl(141, 76%, 36%);" onclick="themeChange('green', '141, 76%, 36%')">绿色主题</button></li>
+        <li class="theme-item"><button style="background-color: hsl(347, 78%, 49%);" onclick="themeChange('red', '347, 78%, 49%')">红色主题</button></li>
+        <li class="theme-item"><button style="background-color: hsl(240, 4%, 9%);" onclick="themeChange('black', '240, 4%, 9%')">黑色主题</button></li>
+    </ul>
+    <script>
+        
+        function themeChange(colorName, colorHslString) {
+            // 修改前
+            // console.log(
+            //     `theme change: ${colorName} ${colorHslString}`
+            // )
+            
+            // 修改后
+            console.log(
+                `%c theme change: ${colorName} ${colorHslString}`,
+                `color: white; background-color: hsl(${colorHslString})`
+            );
+        }   
+    </script>
+</body>
+</html>
