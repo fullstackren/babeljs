@@ -28,4 +28,5 @@ grep -nri css docs | cat --number
 
 ### 十月
 
+- [日刊 0002：使用 console.log 反馈主题，提升开发体验](docs/issue-0002.md)
 - [日刊 0001：天气如风景](docs/issue-0001.md)
