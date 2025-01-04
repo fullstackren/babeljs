@@ -41,15 +41,7 @@ features:
   #   linkText: 查看更多
 ---
 
-<script setup>
-import DfNews from './components/df-news/DfNews.vue'
-</script>
-
 ## 动态
-
-<ClientOnly>
-  <DfNews />
-</ClientOnly>
 
 ::: details 申请友链
 
